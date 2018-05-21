@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93753" started-at="2018-05-16T12:18:27Z" finished-at="2018-05-16T12:20:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93753" started-at="2018-05-16T12:18:27Z" finished-at="2018-05-16T12:20:00Z">
+      <class name="com.jackfruit.scripts.ReportIssueTest">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="initFrameWork" is-config="true" duration-ms="177" started-at="2018-05-16T17:48:26Z" finished-at="2018-05-16T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="initGlobalVar" is-config="true" duration-ms="0" started-at="2018-05-16T17:48:27Z" finished-at="2018-05-16T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="initApplication" is-config="true" duration-ms="4812" started-at="2018-05-16T17:48:27Z" finished-at="2018-05-16T17:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="preCondition" is-config="true" duration-ms="30705" started-at="2018-05-16T17:48:31Z" finished-at="2018-05-16T17:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jackfruit.scripts.ReportIssueTest.mantisRepotIssue() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mantisRepotIssue()[pri:10, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="mantisRepotIssue" duration-ms="53106" started-at="2018-05-16T17:49:02Z" finished-at="2018-05-16T17:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mantisRepotIssue -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="postCondition" is-config="true" duration-ms="9" started-at="2018-05-16T17:49:55Z" finished-at="2018-05-16T17:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mantisRepotIssue status=SUCCESS method=ReportIssueTest.mantisRepotIssue()[pri:10, instance:com.jackfruit.scripts.ReportIssueTest@407d53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="closeApplication" is-config="true" duration-ms="5108" started-at="2018-05-16T17:49:55Z" finished-at="2018-05-16T17:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.jackfruit.scripts.ReportIssueTest@407d53]" name="publishReport" is-config="true" duration-ms="552" started-at="2018-05-16T17:50:01Z" finished-at="2018-05-16T17:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.jackfruit.scripts.ReportIssueTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
